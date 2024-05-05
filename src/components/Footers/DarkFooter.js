@@ -8,7 +8,7 @@ function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
       <Container>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <a
@@ -35,10 +35,10 @@ function DarkFooter() {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
+          © {new Date().getFullYear()}, ECMI - MultiMedia
+          {/* <a
             href="https://www.invisionapp.com?ref=nukr-dark-footer"
             target="_blank"
           >
@@ -50,8 +50,8 @@ function DarkFooter() {
             target="_blank"
           >
             Creative Tim
-          </a>
-          .
+          </a> */}
+          
         </div>
       </Container>
     </footer>

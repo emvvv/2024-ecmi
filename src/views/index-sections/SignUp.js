@@ -53,15 +53,6 @@ function SignUp() {
                     </Button>
                     <Button
                       className="btn-neutral btn-icon btn-round"
-                      color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
                       color="google"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -137,7 +128,7 @@ function SignUp() {
               </Form>
             </Card>
           </Row>
-          <div className="col text-center">
+          {/* <div className="col text-center">
             <Button
               className="btn-round btn-white"
               color="default"
@@ -148,7 +139,7 @@ function SignUp() {
             >
               View Login Page
             </Button>
-          </div>
+          </div> */}
         </Container>
       </div>
     </>

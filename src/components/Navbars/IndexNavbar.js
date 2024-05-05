@@ -54,15 +54,15 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
+              href="#"
               target="_blank"
               id="navbar-brand"
             >
-              Now UI Kit React
+              Emmanuel Church Ministries Int'l
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
+            {/* <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
+            </UncontrolledTooltip> */}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -93,8 +93,7 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                  <p>Download</p>
+                 
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav>
@@ -105,20 +104,24 @@ function IndexNavbar() {
                   nav
                   onClick={(e) => e.preventDefault()}
                 >
-                  <i className="now-ui-icons design_app mr-1"></i>
-                  <p>Components</p>
+                  {/* <i className="now-ui-icons design_app mr-1"></i> */}
+                  <p>About Us</p>
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    All components
+                  Our Ministries
                   </DropdownItem>
                   <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
+                    // href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
+                    // target="_blank"
                   >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    Documentation
+                  Our Missions
+                  </DropdownItem>
+                  <DropdownItem to="/index" tag={Link}>
+                   Our Services
+                  </DropdownItem>
+                  <DropdownItem to="/index" tag={Link}>
+                   Giving
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -126,33 +129,30 @@ function IndexNavbar() {
                 <Button
                   className="nav-link btn-neutral"
                   color="info"
-                  href="https://www.creative-tim.com/product/now-ui-kit-pro-react?ref=nukr-index-navbar"
+                  // href="https://www.creative-tim.com/product/now-ui-kit-pro-react?ref=nukr-index-navbar"
                   id="upgrade-to-pro"
                   target="_blank"
                 >
-                  <i className="now-ui-icons arrows-1_share-66 mr-1"></i>
-                  <p>Upgrade to PRO</p>
+                  <p>Join The Family</p>
                 </Button>
-                <UncontrolledTooltip target="#upgrade-to-pro">
-                  Cooming soon!
-                </UncontrolledTooltip>
+
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="https://www.youtube.com/@ecmimakati"
                   target="_blank"
                   id="twitter-tooltip"
                 >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
+                  <i className="fab fa-youtube"></i>
+                  <p className="d-lg-none d-xl-none">Youtube</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
+                  Subscribe to us on Youtube
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="https://www.facebook.com/officialecmimakati"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -165,7 +165,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href="https://www.instagram.com/ecmi_makati/"
                   target="_blank"
                   id="instagram-tooltip"
                 >
